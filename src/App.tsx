@@ -2,6 +2,7 @@ import React from 'react';
 import { Hero } from './components/Hero';
 import { NFTCarousel } from './components/NFTCarousel';
 import { Features } from './components/Features';
+import { ZombieCarousel } from './components/ZombieCarousel';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <NFTCarousel />
       <Features />
+      <ZombieCarousel />
     </div>
   );
 }

@@ -33,7 +33,7 @@ export const Features = () => {
     },
     {
       title: "Community Perks",
-      description: "Get access to exclusive events and future drops"
+      description: "Get access to exclusive events and future drops (ZOMBIES CLAIM )"
     },
     {
       title: "Rarity System",
