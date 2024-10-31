@@ -16,7 +16,7 @@ export const ZombieCarousel = () => {
           Very Soon: Garbage Bin Zombies
         </h2>
         <p className="text-xl text-blue-200 max-w-2xl mx-auto px-4">
-          BURN 🔥 2 🧪GBKs🧪 to mint 1 exclusive "Grabage Bin Zombies" as soon as we mint out our new Bin Kid NFTs
+          BURN 🔥 2 🧪GBKs🧪 to mint 1 exclusive "Garbage Bin Zombies" as soon as we mint out our new Bin Kid NFTs
         </p>
       </motion.div>
       

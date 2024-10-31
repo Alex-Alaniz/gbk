@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import React from 'react';
 import { FaDiscord, FaTwitter } from 'react-icons/fa';
 
 export const Hero = () => {
@@ -50,15 +51,17 @@ export const Hero = () => {
           transition={{ delay: 0.4 }}
           className="flex gap-6 justify-center"
         >
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105">
-            Mint Now
-          </button>
+          <a href="https://on.mintpad.co/GBK" target="_blank" rel="noopener noreferrer">
+            <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105">
+              Mint Now
+            </button>
+          </a>
           <div className="flex gap-4">
-            <a href="#" className="bg-white/10 p-4 rounded-full hover:bg-white/20 transition-all">
-              <FaDiscord className="w-6 h-6 text-white" />
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="bg-white/10 p-4 rounded-full hover:bg-white/20 transition-all flex items-center justify-center">
+              <span className="text-white text-2xl">𝕏</span>
             </a>
-            <a href="#" className="bg-white/10 p-4 rounded-full hover:bg-white/20 transition-all">
-              <FaTwitter className="w-6 h-6 text-white" />
+            <a href="https://discord.gg/gwwJj9H5T4" target="_blank" rel="noopener noreferrer" className="bg-white/10 p-4 rounded-full hover:bg-white/20 transition-all">
+              <FaDiscord className="w-6 h-6 text-white" />
             </a>
           </div>
         </motion.div>
